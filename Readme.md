@@ -1,217 +1,125 @@
-Minhas anotações realizadas durante a Next Level Week Return de 05/2022 
+# Next Level Week Return
 
-<https://www.npmjs.com/>
+<p>
+  <img src="https://img.shields.io/badge/made%20by-Alessandro%20Massarotti%20Jr-8B5CF6?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alessandro-massarotti-Jr/nlw-return-impulse?color=8B5CF6&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alessandro-massarotti-Jr/nlw-return-impulse?color=8B5CF6&style=flat-square">
+</p>
 
-# NLW Return
+Projeto desenvolvido durante a Next Level Week Return de 05/2022 
+
+<img src="./img/nlwReturn.png" alt="ScreenShot"/>
 
 ## web
 
-### criar projeto com vite
-> npm create vite@latest
+### config
 
-vite ferramenta que faz o navegador entender o javascript mais moderno
-vite converte o codigo para um formato para rodar em todos os navegadores
-vite semelhante a webpack
+Run `npm install` to install project dependenies
 
-react Type Script
-### tailwind 
-<https://tailwindcss.com/docs/installation>
-> npx tailwindcss init -p
+Run `npm run dev` to start development server
 
-#### tailwind forms
-<https://github.com/tailwindlabs/tailwindcss-forms>
-> npm install -D @tailwindcss/forms
+### links uteis
 
-#### tailwind scrollbar
-<https://www.npmjs.com/package/tailwind-scrollbar>
-> npm install --save-dev tailwind-scrollbar
+ - [React](https://reactjs.org/)
+ - [Vite](https://vitejs.dev/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Tailwind](https://tailwindcss.com/)
+ - [Tailwind Forms](https://github.com/tailwindlabs/tailwindcss-forms)
+ - [Tailwind ScroolBar](https://www.npmjs.com/package/tailwind-scrollbar)
+ - [Phosphor Icons](https://github.com/phosphor-icons/phosphor-home)
+ - [headless ui](https://headlessui.dev/)
+ - [html2canva](https://html2canvas.hertzen.com/)
 
-### phosphorIcons
+### comandos utilizados
 
-<https://github.com/phosphor-icons/phosphor-home>
-
-> npm install phosphor-react
-
-### headless ui
-
-Acessibilidade
-
-<https://headlessui.dev/>
-
-> npm install @headlessui/react
-
-### html2canvas
-
-usado para screenshot
-
-> npm install html2canvas
+ - `npm create vite@latest`
+ - `npx tailwindcss init -p`
+ - `npm install -D @tailwindcss/forms`
+ - `npm install --save-dev tailwind-scrollbar`
+ - `npm install phosphor-react`
+ - `npm install @headlessui/react`
+ - `npm install html2canvas`
 
 ## server
+### config
 
-add package.json
-> npm init -y
+Run `npm install` to install project dependenies
 
-adicionar dependencias 
-typescript
-tipos do node 
-ts-node-dev - similar ao nodemon só que com typescript sempre que houver alteração no codigo reinicia servidor(live reload)
-> npm i typescript @types/node ts-node-dev -O
+Run `npm run dev` to start development server
 
-criar arquivo ts config
- > npx tsc --init
+### links uteis
 
- converter typeScript em javascript
- > npx tsc
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Express](https://expressjs.com/)
+ - [Prisma](https://www.prisma.io/)
+ - [NodeMailer](https://nodemailer.com/about/)
+ - [Jest](https://jestjs.io/pt-BR/)
+ - [swc](https://swc.rs/)
+ - [Cors](https://www.npmjs.com/package/cors)
 
- ### express
-microframework para criar rotas
-> npm i express
+### comandos utilizados
 
-adicionar suporte a typescript
-> npm i -D @types/express
+ - `npm init -y`
+ - `npm i typescript @types/node ts-node-dev -O`
+ - `npx tsc --init`
+ - `npx tsc`
+ - `npm i express`
+ - `npm i -D @types/express`
+ - `npm install html2canvas`
+ - `npm i prisma -D`
+ - `npm i @prisma/client`
+ - `npx prisma init`
+ - `npx prisma migrate dev`
+ - `npx prisma migrate deploy`
+ - `npx prisma studio`
+ - `npm install nodemailer`
+ - `npm install @types/nodemailer`
+ - `npm install jest -D`
+ - `npx jest --init`
+ - `npm install ts-node -D`
+ - `npm i @types/jest -D`
+ - `npm i -D jest @swc/jest`
+ - `npm i cors`
+ - `npm i @types/ cors -D`
 
-### SQLite
-
-banco de dados salva dados em arquivos
-
-### Prisma
-<https://www.prisma.io/>
-
-é uma ORM facilita trabalhar com banco de dados, ao inves de escrever SQL usa sintaxe do ORM(Prisma)
-> npm i prisma -D
-> npm i @prisma/client
-> npx prisma init
-
-criar banco com o prisma
-> npx prisma migrate dev
-> npx prisma migrate deploy
-
-cria uma janela no navegador para transitar no banco de dados
-> npx prisma studio
-
-### nodemailer
-
-Biblioteca para envio de emails
-
- > npm install nodemailer
-
- add typescript
- > npm install @types/nodemailer
-
- ### mailtrap
-
- <https://mailtrap.io/>
-
- serviço para testar envio de emails
-
- ### jest
-
- taskrunner usado em testes unitarios
- > npm install jest -D
-
-inicializar configuração
-> npx jest --init
-
-usar typeScript com jest
-> npm install ts-node -D
-
-instalar tipagems
- > npm i @types/jest -D
-
-### swc 
-
-<https://swc.rs/>
-
-copilador javaScript typeScript
-
-utilizar com jest
-> npm i -D jest @swc/jest
-
-### cors
-
-adiciona segurança definindo quais endereços podem acessar a API
-
-> npm i cors
-
-> npm i @types/ cors -D
 
 ## mobile
 
-### expo
+### config
 
-criar projeto
+Run `npm install` to install project dependenies
 
->  expo init mobile
+Run `expo start` to start development server
 
-<https://efficient-sloth-d85.notion.site/Instalando-Expo-cc5bfac8f19a41e394889e885355f261>
+### links uteis
 
-instalar expo cli globalmente
 
-> npm install -g expo-cli
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Expo](https://expo.dev/)
+ - [Phosphor react native](https://phosphoricons.com/)
+ - [Bottom sheet](https://gorhom.github.io/react-native-bottom-sheet/)
+ - [Axios](https://axios-http.com/ptbr/docs/intro)
+ 
 
-> npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
-> npm run ios # requires an iOS device or macOS for access to an iOS simulator
-> npm run android
-> npm run web
+### comandos utilizados
 
-### fonte
+ - `expo init mobile`
+ - `npm install -g expo-cli`
+ - `expo install expo-font @expo-google-fonts/inter`
+ - `expo install expo-app-loading`
+ - `npm install --save phosphor-react-native `
+ - `expo install react-native-svg`
+ - `npm install react-native-iphone-x-helper`
+ - `expo install @gorhom/bottom-sheet@^4`
+ - `expo install react-native-reanimated`
+ - `expo install react-native-gesture-handler`
+ - `expo install react-native-view-shot`
+ - `npm install axios`
+ - `expo install expo-file-system`
 
-instalar fonte com o expo
 
-> expo install expo-font @expo-google-fonts/inter
+<br>
 
-### expo loading
+---
 
-verificar se necessita de loading
-
-> expo install expo-app-loading
-
-### phospohr icons
-
-biblioteca de icones
-
-> npm install --save phosphor-react-native    
-
-### biblioteca para svg
-
-biblioteca para adicionar suporte svg nos apps
-
-> expo install react-native-svg
-
-### iphone helper
-
->  npm install react-native-iphone-x-helper
-
-### bottom sheet
-
-https://gorhom.github.io/react-native-bottom-sheet/
-
-> expo install @gorhom/bottom-sheet@^4
-
-bibliotecas de animação e gestos que o bottom sheet precisa
-
-#### reanimated
-
-> expo install react-native-reanimated
-
-#### gesture handles
-
-> expo install react-native-gesture-handler
-
-### react native view shot
-
-biblioteca para tirar foto da tela
-
-> expo install react-native-view-shot
-
-### axios
-
-biblioteca para lidar com requisições http
-
-> npm install axios
-
-### expo file system
-
-biblioteca de conversão de arquivos
-
-> expo install expo-file-system
+Desenvolvido Por [Alessandro Massarotti Jr](https://github.com/alessandro-massarotti-jr) 🤖
